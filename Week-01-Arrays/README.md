@@ -11,7 +11,7 @@ At each index, store the sum of all previous elements including the current one.
 **Key Insight:**  
 Running sum at index i = running sum at i-1 + nums[i]
 
-### Problem – Build Array from Permutation
+### Day 2 – Build Array from Permutation
 
 **Pattern:** Index Mapping
 
@@ -25,3 +25,17 @@ ans[i] = nums[nums[i]]
 
 **Key Insight:**  
 Values can act as indices when the array is a permutation.
+
+### Day 3 – Best Time to Buy and Sell Stock
+
+**Pattern:** Minimum Tracking / Greedy Optimization
+
+**Approach:**
+Track the minimum stock price seen so far. At each day, calculate the profit if sold today and update the maximum profit accordingly.
+
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+**Key Insight:**
+Instead of checking all pairs, track the minimum buying price and compute profit on the fly to ensure buy happens before sell.
