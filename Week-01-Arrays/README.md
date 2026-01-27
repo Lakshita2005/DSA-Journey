@@ -39,3 +39,19 @@ Track the minimum stock price seen so far. At each day, calculate the profit if 
 
 **Key Insight:**
 Instead of checking all pairs, track the minimum buying price and compute profit on the fly to ensure buy happens before sell.
+
+### Day 4 – Contains Duplicate
+
+**Pattern:** Hashing / Frequency Tracking
+
+**Approach:**
+Traverse the array and store each element in a HashSet.
+If an element is already present in the set, return true immediately.
+If the loop finishes, return false.
+
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(n)
+
+**Key Insight:**
+Hashing allows us to check duplicates in constant time instead of using nested loops.
