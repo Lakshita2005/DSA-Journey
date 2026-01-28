@@ -55,3 +55,16 @@ If the loop finishes, return false.
 
 **Key Insight:**
 Hashing allows us to check duplicates in constant time instead of using nested loops.
+
+### Day 5 – Two Sum
+
+**Pattern:** Hashing / Two Pointer Thinking
+
+**Approach (HashMap):**  
+Store each element and its index in a HashMap. For each element, calculate the complement and check if it already exists.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(n)
+
+**Key Insight:**  
+Instead of searching for pairs, store previously seen values and look up the required complement.
