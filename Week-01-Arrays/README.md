@@ -68,3 +68,16 @@ Store each element and its index in a HashMap. For each element, calculate the c
 
 **Key Insight:**  
 Instead of searching for pairs, store previously seen values and look up the required complement.
+
+### Day 6 – Maximum Subarray
+
+**Pattern:** Kadane’s Algorithm / Dynamic Programming
+
+**Optimized Approach (Kadane’s Algorithm):**  
+Track the maximum sum ending at each index and update the global maximum.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+**Key Insight:**  
+At each index, decide whether to start a new subarray or continue the existing one.
