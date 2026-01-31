@@ -81,3 +81,16 @@ Track the maximum sum ending at each index and update the global maximum.
 
 **Key Insight:**  
 At each index, decide whether to start a new subarray or continue the existing one.
+
+### Day 7 – Product of Array Except Self
+
+**Pattern:** Prefix & Suffix Products
+
+**Optimized Approach:**  
+First store prefix products, then multiply with suffix products in a second pass.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1) extra (output array excluded)
+
+**Key Insight:**  
+The product of all elements except self = product of elements before × product of elements after.
