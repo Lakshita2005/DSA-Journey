@@ -29,3 +29,16 @@ Use two pointers starting from both ends, swap characters in-place, and move inw
 
 **Key Insight:**
 Swapping elements from both ends reverses the array efficiently without using extra space.
+
+### Day 10 – Valid Palindrome
+
+**Pattern:** Two Pointers with Condition
+
+**Optimized Approach:**  
+Use two pointers from both ends, skip non-alphanumeric characters, and compare valid characters in lowercase.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+**Key Insight:**  
+Skipping invalid characters while moving pointers avoids extra space and keeps the solution efficient.
