@@ -42,3 +42,16 @@ Use two pointers from both ends, skip non-alphanumeric characters, and compare v
 
 **Key Insight:**  
 Skipping invalid characters while moving pointers avoids extra space and keeps the solution efficient.
+
+### Day 11 – Remove Duplicates from Sorted Array
+
+**Pattern:** Two Pointers (Slow & Fast)
+
+**Optimized Approach:**  
+Use two pointers to modify the array in-place and keep only unique elements.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+**Key Insight:**  
+Since the array is sorted, duplicates are adjacent. We only need to compare current and previous elements.
