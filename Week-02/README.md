@@ -55,3 +55,22 @@ Use two pointers to modify the array in-place and keep only unique elements.
 
 **Key Insight:**  
 Since the array is sorted, duplicates are adjacent. We only need to compare current and previous elements.
+
+### Day 12 – Valid Anagram
+
+**Pattern:** String Frequency / Hashing
+
+**Brute Force Approach:**  
+Sort both strings and compare them.
+
+**Time Complexity:** O(n log n)  
+**Space Complexity:** O(1) or O(n)
+
+**Optimized Approach:**  
+Use a frequency array of size 26 to count characters.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+**Key Insight:**  
+Two strings are anagrams if every character appears the same number of times in both.
