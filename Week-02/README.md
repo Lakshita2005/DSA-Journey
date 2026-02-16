@@ -74,3 +74,21 @@ Use a frequency array of size 26 to count characters.
 
 **Key Insight:**  
 Two strings are anagrams if every character appears the same number of times in both.
+
+### Day 13 – Maximum Subarray Sum of Size K
+
+**Pattern:** Sliding Window (Fixed Size)
+
+**Optimized Approach (Sliding Window):**
+Maintain a window of size k. Add the next element to the window and remove the first element of the previous window while sliding forward.
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+**Key Insight:**
+Instead of recalculating the sum for every subarray, reuse the previous window sum by subtracting the outgoing element and adding the incoming element.
+
+**Window size formula:**
+window size = j - i + 1
+
+### Day 14 - Revision of all the questions done till now
